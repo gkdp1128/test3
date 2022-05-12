@@ -4265,7 +4265,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: #FFFFFF;
 }
 
 .nav-tabs .nav-link.disabled {
@@ -4354,7 +4354,8 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
-.navbar-brand:hover, .navbar-brand:focus {
+.navbar-brand:hover, 
+.navbar-brand:focus {
   text-decoration: none;
 }
 
@@ -4396,10 +4397,9 @@ input[type="button"].btn-block {
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+  line-height: none;
+  background-color: none;
+  border: transparent;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
